@@ -172,7 +172,7 @@ class TodoList extends React.Component {
 [答案&解析](https://github.com/lgwebdream/FE-Interview/issues/206)
 Redux和Vuex都是用于管理应用程序状态的状态管理库，它们有很多相似之处，因为Vuex受到了Redux的启发。现在，让我为你详细解释它们之间的区别和共同思想。
 
-## 共同思想：
+#### 共同思想：
 
 1. **单一数据源：**
    - **Redux：** 应用中的整个状态被存储在一个单一的不可变对象中，称为"store"。
@@ -190,7 +190,7 @@ Redux和Vuex都是用于管理应用程序状态的状态管理库，它们有�
    - **Redux：** 使用纯函数（pure functions）称为reducers来处理Actions，返回一个新的状态。
    - **Vuex：** 使用Mutations，也是一种纯函数，用于同样的目的。
 
-## 区别：
+#### 区别：
 
 1. **语法和API差异：**
    - **Redux：** 采用纯JavaScript，使用纯函数作为reducer。
@@ -221,7 +221,7 @@ Redux和Vuex都是用于管理应用程序状态的状态管理库，它们有�
 [答案&解析](https://github.com/lgwebdream/FE-Interview/issues/347)
 React和Vue是两个流行的前端JavaScript框架，用于构建用户界面。它们有一些相似之处，但也有一些明显的区别。下面是对它们的理解以及它们的异同之处：
 
-## React：
+#### React：
 
 **理解：**
 - React是一个由Facebook开发的JavaScript库，用于构建用户界面。它的核心思想是组件化，将用户界面拆分成多个可重用的组件。
@@ -251,7 +251,7 @@ React和Vue是两个流行的前端JavaScript框架，用于构建用户界面�
    - React没有内建的状态管理工具，但通常与Redux、MobX等第三方库一起使用。
    - Vue提供了Vuex作为官方状态管理工具，使状态管理更容易。
 
-## Vue：
+#### Vue：
 
 **理解：**
 - Vue是一个渐进式的JavaScript框架，设计用于构建用户界面。它由尤雨溪（Evan You）创建，强调简单性和灵活性。
@@ -519,7 +519,7 @@ Vuex的核心原理可以概括为以下几点：
 [答案&解析](https://github.com/lgwebdream/FE-Interview/issues/286)
 `v-model` 是 Vue.js 中用于实现双向数据绑定的指令。它是一种语法糖，其实现原理涉及到两个关键部分：**属性绑定**和**事件监听**。
 
-## 实现原理：
+#### 实现原理：
 
 1. **属性绑定（Binding）：** 当一个组件使用 `v-model` 指令时，实际上是在做一种属性的绑定，将父组件传递给子组件的值与子组件内部的值进行绑定。这通常涉及到两个属性：
 
@@ -565,7 +565,7 @@ Vuex的核心原理可以概括为以下几点：
    </template>
    ```
 
-## 语法糖：
+#### 语法糖：
 
 `v-model` 其实是以下两个常见 Vue 模式的语法糖：
 
